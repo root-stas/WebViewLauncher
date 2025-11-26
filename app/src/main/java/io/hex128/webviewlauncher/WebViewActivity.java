@@ -269,6 +269,7 @@ public class WebViewActivity extends Activity {
         web.getSettings().setAppCacheEnabled(false);
         web.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
         web.getSettings().setJavaScriptEnabled(true);
+        web.getSettings().setDomStorageEnabled(true);
         web.getSettings().setMediaPlaybackRequiresUserGesture(false);
         web.getSettings().setLoadWithOverviewMode(true);
         web.getSettings().setUseWideViewPort(true);
